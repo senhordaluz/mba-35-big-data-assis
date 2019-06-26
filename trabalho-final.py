@@ -15,20 +15,20 @@ spark.conf.set('spark.sql.crossJoin.enabled', 'true')
 schema = StructType([
     StructField('DataExtracao', StringType(), False),
     StructField('Cliente', IntegerType(), False),
-    StructField('Contrato', DecimalType(), False),
+    StructField('Contrato', DoubleType(), False),
     StructField('DataContrato', DateType(), False),
     StructField('Produto', StringType(), False),
     StructField('Banco', IntegerType(), False),
     StructField('NomeBanco', StringType(), False),
     StructField('Moeda', StringType(), False),
-    StructField('TaxaCambio', DecimalType(), False),
+    StructField('TaxaCambio', DoubleType(), False),
     StructField('Parcela', IntegerType(), False),
     StructField('DataVencimento', DateType(), False),
-    StructField('ValorParcela', DecimalType(), False),
-    StructField('ValorPago', DecimalType(), False),
+    StructField('ValorParcela', DoubleType(), False),
+    StructField('ValorPago', DoubleType(), False),
     StructField('DataPagamento', DateType(), False),
-    StructField('ValorCancelado', DecimalType(), False),
-    StructField('ValorDesconto', DecimalType(), False),
+    StructField('ValorCancelado', DoubleType(), False),
+    StructField('ValorDesconto', DoubleType(), False),
     StructField('Localidade', StringType(), False)
     ])
 
