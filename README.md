@@ -18,3 +18,5 @@ Para executar o script, basta executar o seguinte comando:
 ```ssh
 spark-submit trabalho-final.py
 ```
+
+Ao final do script, surgirão duas pastas `trabalho-final.csv` e `trabalho-final-com-virgula.csv`, ambas contendo um arquivo de uma única partição *(no formato interno do hadoop)*. Sendo o primeiro um arquivo `csv` separado por ponto e vírgula *(utilizado durante a apresentação pelo Power Bi)* enquanto o segundo sendo um arquivo `csv` padrão separado por vírgulas para melhor visualização em plataformas Linux.
