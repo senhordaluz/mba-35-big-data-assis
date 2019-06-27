@@ -8,7 +8,7 @@ Projeto desenvolvido como trabalho final da disciplina de Big Data Science das t
 
 - [Edilson Pereira de Andrade](mailto:adr.edilson@gmail.com)
 - [Jorge Alberto](mailto:joabergon@gmail.com)
-- [Pedro da Luz](matilto:pedro256@gmail.com)
+- [Pedro da Luz](mailto:pedro256@gmail.com)
 - [Thiago Silva](mailto:tagalho1609@gmail.com)
 
 ## Como executar
